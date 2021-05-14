@@ -13,10 +13,20 @@
 		EF00E39225F91D1A00EF27F2 /* EducationApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF00E39025F91D1A00EF27F2 /* EducationApplication.xcdatamodeld */; };
 		EF00E39425F91D1C00EF27F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00E39325F91D1C00EF27F2 /* Assets.xcassets */; };
 		EF00E39725F91D1C00EF27F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00E39525F91D1C00EF27F2 /* LaunchScreen.storyboard */; };
+		EFCA3B6F2602444C00C6A51A /* DetailOfMyCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3B6E2602444C00C6A51A /* DetailOfMyCourseViewController.swift */; };
+		EFCA3B7F26040C8100C6A51A /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3B7E26040C8100C6A51A /* UserInputViewController.swift */; };
+		EFCA3B8226040F3E00C6A51A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3B8126040F3E00C6A51A /* RegisterViewController.swift */; };
+		EFCA3B922604235D00C6A51A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3B912604235D00C6A51A /* DataManager.swift */; };
+		EFCA3BBC2604F4D800C6A51A /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3BB82604F4D800C6A51A /* User+CoreDataClass.swift */; };
+		EFCA3BBD2604F4D800C6A51A /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3BB92604F4D800C6A51A /* User+CoreDataProperties.swift */; };
+		EFCA3BBE2604F4D800C6A51A /* Courses+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3BBA2604F4D800C6A51A /* Courses+CoreDataClass.swift */; };
+		EFCA3BBF2604F4D800C6A51A /* Courses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA3BBB2604F4D800C6A51A /* Courses+CoreDataProperties.swift */; };
 		EFF59E6A25F9478F00C5A25E /* CoursesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E6925F9478F00C5A25E /* CoursesProtocol.swift */; };
 		EFF59E6D25F9480400C5A25E /* CoursesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E6C25F9480400C5A25E /* CoursesModel.swift */; };
 		EFF59E7025F9486900C5A25E /* CoursesTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E6F25F9486900C5A25E /* CoursesTableListViewController.swift */; };
 		EFF59E7325F948D900C5A25E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7225F948D900C5A25E /* DetailViewController.swift */; };
+		EFF59E8725F952D300C5A25E /* FavouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E8625F952D300C5A25E /* FavouriteTableViewController.swift */; };
+		EFF59E8A25F9753C00C5A25E /* CoursesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E8925F9753C00C5A25E /* CoursesDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +38,20 @@
 		EF00E39325F91D1C00EF27F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF00E39625F91D1C00EF27F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF00E39825F91D1C00EF27F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCA3B6E2602444C00C6A51A /* DetailOfMyCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfMyCourseViewController.swift; sourceTree = "<group>"; };
+		EFCA3B7E26040C8100C6A51A /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
+		EFCA3B8126040F3E00C6A51A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EFCA3B912604235D00C6A51A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EFCA3BB82604F4D800C6A51A /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "../../User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFCA3BB92604F4D800C6A51A /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFCA3BBA2604F4D800C6A51A /* Courses+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Courses+CoreDataClass.swift"; path = "../../Courses+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFCA3BBB2604F4D800C6A51A /* Courses+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Courses+CoreDataProperties.swift"; path = "../../Courses+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EFF59E6925F9478F00C5A25E /* CoursesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesProtocol.swift; sourceTree = "<group>"; };
 		EFF59E6C25F9480400C5A25E /* CoursesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesModel.swift; sourceTree = "<group>"; };
 		EFF59E6F25F9486900C5A25E /* CoursesTableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableListViewController.swift; sourceTree = "<group>"; };
 		EFF59E7225F948D900C5A25E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EFF59E8625F952D300C5A25E /* FavouriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewController.swift; sourceTree = "<group>"; };
+		EFF59E8925F9753C00C5A25E /* CoursesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 		EF00E38625F91D1A00EF27F2 /* EducationApplication */ = {
 			isa = PBXGroup;
 			children = (
+				EFCA3B902604233A00C6A51A /* Singelton */,
 				EF00E3A225F9203300EF27F2 /* CoreData */,
 				EF00E3A125F9202800EF27F2 /* ViewControllers */,
 				EF00E3A025F9202100EF27F2 /* Protocols */,
@@ -90,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				EFF59E6925F9478F00C5A25E /* CoursesProtocol.swift */,
+				EFF59E8925F9753C00C5A25E /* CoursesDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -99,6 +121,10 @@
 			children = (
 				EFF59E6F25F9486900C5A25E /* CoursesTableListViewController.swift */,
 				EFF59E7225F948D900C5A25E /* DetailViewController.swift */,
+				EFF59E8625F952D300C5A25E /* FavouriteTableViewController.swift */,
+				EFCA3B6E2602444C00C6A51A /* DetailOfMyCourseViewController.swift */,
+				EFCA3B7E26040C8100C6A51A /* UserInputViewController.swift */,
+				EFCA3B8126040F3E00C6A51A /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -106,9 +132,21 @@
 		EF00E3A225F9203300EF27F2 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				EFCA3BB82604F4D800C6A51A /* User+CoreDataClass.swift */,
+				EFCA3BB92604F4D800C6A51A /* User+CoreDataProperties.swift */,
+				EFCA3BBA2604F4D800C6A51A /* Courses+CoreDataClass.swift */,
+				EFCA3BBB2604F4D800C6A51A /* Courses+CoreDataProperties.swift */,
 				EF00E39025F91D1A00EF27F2 /* EducationApplication.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EFCA3B902604233A00C6A51A /* Singelton */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA3B912604235D00C6A51A /* DataManager.swift */,
+			);
+			path = Singelton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,11 +221,21 @@
 			files = (
 				EFF59E6A25F9478F00C5A25E /* CoursesProtocol.swift in Sources */,
 				EF00E38825F91D1A00EF27F2 /* AppDelegate.swift in Sources */,
+				EFF59E8A25F9753C00C5A25E /* CoursesDelegate.swift in Sources */,
+				EFCA3B7F26040C8100C6A51A /* UserInputViewController.swift in Sources */,
 				EF00E38A25F91D1A00EF27F2 /* SceneDelegate.swift in Sources */,
 				EFF59E7025F9486900C5A25E /* CoursesTableListViewController.swift in Sources */,
+				EFCA3BBF2604F4D800C6A51A /* Courses+CoreDataProperties.swift in Sources */,
+				EFCA3BBC2604F4D800C6A51A /* User+CoreDataClass.swift in Sources */,
 				EFF59E6D25F9480400C5A25E /* CoursesModel.swift in Sources */,
+				EFCA3BBD2604F4D800C6A51A /* User+CoreDataProperties.swift in Sources */,
 				EF00E39225F91D1A00EF27F2 /* EducationApplication.xcdatamodeld in Sources */,
 				EFF59E7325F948D900C5A25E /* DetailViewController.swift in Sources */,
+				EFCA3B922604235D00C6A51A /* DataManager.swift in Sources */,
+				EFCA3B8226040F3E00C6A51A /* RegisterViewController.swift in Sources */,
+				EFCA3B6F2602444C00C6A51A /* DetailOfMyCourseViewController.swift in Sources */,
+				EFCA3BBE2604F4D800C6A51A /* Courses+CoreDataClass.swift in Sources */,
+				EFF59E8725F952D300C5A25E /* FavouriteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

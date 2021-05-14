@@ -8,13 +8,17 @@
 import Foundation
 
 struct CoursesModel : CoursesProtocol {
+    
+    var statusOfCourse: courseStatusEnum
     var nameOfCourse: String
     var infoOfCourse: String
     var lengthOfCourse: Int
     
-    init(nameOfCourse: String, infoOfCourse: String, lengthOfCourse: Int) {
+    
+    init(nameOfCourse: String, infoOfCourse: String, lengthOfCourse: Int, statusOfCourse: courseStatusEnum) {
         self.nameOfCourse = nameOfCourse
         self.infoOfCourse = infoOfCourse
         self.lengthOfCourse = lengthOfCourse
+        self.statusOfCourse = statusOfCourse
     }
 }

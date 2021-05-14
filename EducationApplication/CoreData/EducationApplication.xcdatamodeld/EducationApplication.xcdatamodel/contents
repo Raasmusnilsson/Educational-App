@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Courses" representedClassName="Courses" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="counter" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="infoOfCourse" optional="YES" attributeType="String"/>
+        <attribute name="lengthOfCourse" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nameOfCourse" optional="YES" attributeType="String"/>
+        <attribute name="statusOfCourse" optional="YES" attributeType="String"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="favouritelist" inverseEntity="User"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="favouritelist" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Courses" inverseName="users" inverseEntity="Courses"/>
+    </entity>
+    <elements>
+        <element name="Courses" positionX="-54" positionY="-9" width="128" height="134"/>
+        <element name="User" positionX="-54" positionY="18" width="128" height="134"/>
+    </elements>
 </model>
